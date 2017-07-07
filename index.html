@@ -394,9 +394,32 @@
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="vendor/typed/typed.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+	<!-- Google Maps Api -->
+	<script>
+	// Google Maps location
+	function myMap() {
+
+	var myCenter = {lat: 47.7641888, lng: -122.2082074};
+	var mapProp = {
+	  center: myCenter,
+	  zoom:15,
+	  scrollwheel:false,
+	  draggable:false,
+	  mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker = new google.maps.Marker({
+		  position: myCenter,
+		});
+
+		marker.setMap(map);
+	};
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1nwuZvsn_NjQ7FznrFoy4CxtGFzhMnK8&callback=myMap"></script>
 </body>
 
 </html>
