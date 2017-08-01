@@ -419,6 +419,19 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+/* Cursor */
+.typed-cursor {
+	font-size: 20px;
+}
+
+/* If fade out option is set */
+.typed-fade-out {}
+
+span.typed-font {
+ font-size: 20px;
+}
+
 body {
   webkit-tap-highlight-color: #222222;
 }
+

@@ -70,7 +70,7 @@
     var typed = new Typed("#typed", {
       stringsElement: '#typed-strings',
       typeSpeed: 50,
-      backSpeed: 0,
+      backSpeed: 20,
       smartBackspace: true,
       loop: true
     });
