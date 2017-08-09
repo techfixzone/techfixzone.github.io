@@ -442,9 +442,16 @@
 			<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
 		</a>
 	</div>
+	<div class="call-to-action">
+		<a class="btn btn-xl btn-primary" href="https://www.facebook.com/techfixzone/" style="position: fixed; bottom: 20px; left: 20px;">
+			<span class="fa fa-facebook-square fa-lg" aria-hidden="true"></span>
+		</a>
+	</div>
+
 	<footer class="container-fluid text-center">
 		<a href="#page-top" title="To Top" class="page-scroll">
 			<span class="glyphicon glyphicon-chevron-up"></span>
+
 		</a>
 		<p>Theme from <a href="https://startbootstrap.com/" title="StartBootStrap">startbootstrap.com</a></p>
 	</footer>
@@ -467,21 +474,19 @@
 	// Google Maps location
 	function myMap() {
 
-	var myCenter = {lat: 47.7641888, lng: -122.2082074};
-	var mapProp = {
-	  center: myCenter,
-	  zoom:15,
-	  scrollwheel:false,
-	  draggable:false,
-	  mapTypeId:google.maps.MapTypeId.ROADMAP
-	  };
+		var myCenter = {lat: 47.7641888, lng: -122.2082074};
+		var mapProp = {
+		  center: myCenter,
+		  zoom:15,
+		  scrollwheel:false,
+		  draggable:false,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
 
 		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
 		var marker = new google.maps.Marker({
 		  position: myCenter,
 		});
-
 		marker.setMap(map);
 	};
 	</script>
