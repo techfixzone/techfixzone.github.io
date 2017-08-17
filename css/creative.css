@@ -431,6 +431,20 @@ span.typed-font {
  font-size: 20px;
 }
 
+.float-button {
+	position: fixed;
+	bottom: 80px;
+	right: 10px;
+}
+
+.float-button2 {
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+.text-float {
+	color: darkblue;
+}
 body {
   webkit-tap-highlight-color: #222222;
 }
