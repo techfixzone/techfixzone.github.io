@@ -224,6 +224,19 @@ header .header-content .header-content-inner p {
   .service-box {
     margin: 20px auto 0;
   }
+  .portfolio-nav-pill-justified {
+	  border-bottom: 0;
+  }
+  .portfolio-nav-pill-justified > li {
+	  float: none;
+	  display: table-cell;
+	  width: 1%
+
+  }
+  .nav.portfolio-nav-pill-justified > li > a {
+	  margin-bottom: 5px;
+	  text-align: center;
+  }
 }
 .service-box p {
   margin-bottom: 0;
