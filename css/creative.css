@@ -458,6 +458,14 @@ span.typed-font {
 .text-float {
 	color: darkblue;
 }
+.alert-fixed {
+    position:fixed;
+    top: 50px;
+    left: 2%;
+    width: 96%;
+    z-index:9999;
+    border-radius:0px
+}
 body {
   webkit-tap-highlight-color: #222222;
 }
